@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="box">
+        <form>
+            <div><b>Name</b><sup>*</sup></div>
+            <div class="main">
+                <input type="text" id="fname" name="name" style="border:1px solid grey; width: 200px;"><br>
+                <label for="fname" style="font-size:smaller; color:grey"><b>First</b></label>
+            </div>
+            <div class="main" style="padding-left: 40px;">
+                <input type="text" id="lname" name="name" style="border:1px solid grey; width: 200px;"><br>
+                <label for="lname" style="font-size:smaller; color:grey"><b>Last</b></label>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="email"><b>Email</b><sup>*</sup></label> <br>
+                <input type="email" name="email" id="email" style="border:1px solid grey;width:448px">
+            </div>
+            <br>
+            <div><b>Your Experience</b><sup>*</sup></div>
+            <div>
+                <i class="fa fa-star fa-2x" aria-hidden="true" ></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            </div>
+            <br>
+            <div>
+                <b style="color:grey">Overall, how would you rate your experience with us?</b>
+            </div>
+            <br>
+            <div><b>How satisfied are you with </b><sup>*</sup></div>
+            <table class="table table-borderless">
+                <thead>
+                    <tr style="text-align: center;" >
+                      <th scope="col"></th>
+                      <th scope="col">Very Unsatisfied</th>
+                      <th scope="col">Unsatisfied</th>
+                      <th scope="col">Neutral</th>
+                      <th scope="col">Satisfied</th>
+                      <th scope="col">Very Satisfied</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="field">
+                      <th scope="row">Purchase</th>
+                      <td><input type="radio" id="" name="purchase"></td>
+                      <td><input type="radio" id="" name="purchase" ></td>
+                      <td><input type="radio" id="" name="purchase" ></td>
+                      <td><input type="radio" id="" name="purchase" ></td>
+                      <td><input type="radio" id="" name="purchase" ></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Service</th>
+                        <td><input type="radio" id="" name="service"></td>
+                        <td><input type="radio" id="" name="service" ></td>
+                        <td><input type="radio" id="" name="service" ></td>
+                        <td><input type="radio" id="" name="service" ></td>
+                        <td><input type="radio" id="" name="service" ></td>
+                      </tr>
+                      <tr class="field">
+                        <th scope="row">Company Overall</th>
+                        <td><input type="radio" id="" name="overall"></td>
+                        <td><input type="radio" id="" name="overall" ></td>
+                        <td><input type="radio" id="" name="overall" ></td>
+                        <td><input type="radio" id="" name="overall" ></td>
+                        <td><input type="radio" id="" name="overall" ></td>
+                      </tr>
+                  </tbody>
+              </table>
+              <br>
+            <div><b>How likely are you to</b><sup>*</sup></div>
+            <table class="table table-borderless">
+                <thead>
+                    <tr style="text-align: center;" >
+                      <th scope="col"></th>
+                      <th scope="col">Very Unlikely</th>
+                      <th scope="col">Unlikely</th>
+                      <th scope="col">Neutral</th>
+                      <th scope="col">Likely</th>
+                      <th scope="col">Very Likely</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class =field>
+                      <th scope="row">Buy from us again</th>
+                      <td><input type="radio" id="" name="buy"></td>
+                      <td><input type="radio" id="" name="buy" ></td>
+                      <td><input type="radio" id="" name="buy" ></td>
+                      <td><input type="radio" id="" name="buy" ></td>
+                      <td><input type="radio" id="" name="buy" ></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Recommend our<br>product to others</th>
+                        <td><input type="radio" id="" name="recommend"></td>
+                        <td><input type="radio" id="" name="recommend" ></td>
+                        <td><input type="radio" id="" name="recommend" ></td>
+                        <td><input type="radio" id="" name="recommend" ></td>
+                        <td><input type="radio" id="" name="recommend" ></td>
+                      </tr>
+                      <tr class="field">
+                        <th scope="row">Recommend our<br>comapany to others</th>
+                        <td><input type="radio" id="" name="company"></td>
+                        <td><input type="radio" id="" name="company" ></td>
+                        <td><input type="radio" id="" name="company" ></td>
+                        <td><input type="radio" id="" name="company" ></td>
+                        <td><input type="radio" id="" name="company" ></td>
+                      </tr>
+                  </tbody>
+              </table>
+              <br>
+              <div><b>Additional comments or suggestions</b></div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="border:2px solid lightgray;height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+              <br>
+              <div>
+                <input type="submit" value="Sumbit" style="padding: 10px 5px;">
+              </div>
+        </form>
+    </div>    
+</body>
+</html>
+

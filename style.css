@@ -1,0 +1,20 @@
+.main{
+    display: inline-block;
+}
+sup{
+    color:red;
+}
+.fa{
+    color:orange;
+}
+.box{
+    margin: 10px
+    border :1px solid black;
+    padding : 15px 15px;
+}
+.field{
+    background-color: lightgray;
+}
+td{
+    text-align: center;
+}
