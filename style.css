@@ -18,3 +18,18 @@ sup{
 td{
     text-align: center;
 }
+.star-icon input{
+    display: none;
+}
+.star-icon input + label{
+  font-size: 30px;
+  text-shadow: 1px 1px 0 #ffe400;
+  cursor: pointer;
+}
+.star-icon input:checked + label ~ label{
+    color: #838383;
+}
+.star-icon label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+} 
